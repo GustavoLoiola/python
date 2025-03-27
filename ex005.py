@@ -1,0 +1,11 @@
+a = input('Digite algo:')
+print ('O tipo primitivo desse valor é', type(a))
+
+n = input('Digite um número:')
+print(n.isnumeric())
+n = input('Digite uma letra:')
+print(n.isalpha())
+n = input('Digite algo:')
+print(n.isalnum())
+n = input('Digite uma letra maiúscula:')
+print(n.isupper())
