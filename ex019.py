@@ -1,4 +1,4 @@
-from random import choice
+import random
 print('Sorteio de Aluno')
 a1 = str(input('Digite o nome do primeiro aluno: '))
 a2 = str(input('Digite o nome do segundo aluno: '))

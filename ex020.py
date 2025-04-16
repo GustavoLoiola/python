@@ -1,4 +1,4 @@
-from random import shuffle
+import random
 a1 = str(input('Primeiro nome: '))
 a2 = str(input('Segundo nome: '))
 a3 = str(input('Terceiro nome: '))
