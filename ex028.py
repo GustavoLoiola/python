@@ -1,6 +1,6 @@
 from random import randint
 from time import sleep
-print('-_=' *40)
+print('-_=' *57)
 n = int(input('Tente advinhar o número entre 0 e 5 em que estou pensando: '))
 pc = randint(0, 5)
 print('PROCESSANDO...')
