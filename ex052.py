@@ -1,15 +1,12 @@
-soma = 0
-cont = 0
-num = int(input('Digite um número inteiro: '))
+num = int(input("Digite um número: "))
+contador = 0
 
-for c in range(1, (num+1)):
-        soma += num
-        cont += 1
-if num % c ==0:
-       print('O numero {} foi divisível {} vezes'.format(num, cont))
+for c in range(1, num + 1):
+    if num % c == 0:
+        contador += 1
 
-if cont == 2:
-        print('O NÚMERO É PRIMO!')
-
+print("O número {} foi divisível {} vezes!".format(num, contador))
+if contador == 2:
+    print("O número é primo")
 else:
-       ('O NÚMERO NÃO É PRIMO!')
+    print("O número não é primo")
