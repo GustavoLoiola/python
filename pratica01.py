@@ -1,5 +1,5 @@
-num1 = float(input ('Digite um número:'))
-num2 = float(input ('Digite outro número:'))
+num1 = float(input ('Digite um número: '))
+num2 = float(input ('Digite outro número: '))
 resultado_soma = num1+num2
 resultadosub = num1-num2
 
