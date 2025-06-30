@@ -1,7 +1,8 @@
 def escreva(frase):
-    print('=-' * len(frase))
-    print(frase)
-    print('=-+' * len(frase))
+    tam = len(frase) + 4
+    print('-' * tam)
+    print(f'  {frase}')
+    print('-' * tam)
 
 
 escreva('Olá, mundo!')
