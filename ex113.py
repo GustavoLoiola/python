@@ -15,7 +15,7 @@ def LeiaFloat(msg):
         try:
             num = float(input(msg))
         except(ValueError, TypeError):
-            print('Dados inválidos! Por favor, tente novamente!')
+            print('\033[31mDados inválidos! Por favor, tente novamente!\033[m')
         else:
             print('Dados aceitos!')
             print('Volte sempre, muito obrigado!')
