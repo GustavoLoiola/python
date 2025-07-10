@@ -1,0 +1,5 @@
+gustavo;19
+rebeca;18
+gabriela;26
+alcion;58
+idalia;58
