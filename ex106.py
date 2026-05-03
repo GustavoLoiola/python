@@ -17,6 +17,5 @@ def ajuda():
             print(' ',end=' ')
             help(perg)
             print('\033[m')
-        
-
+    
 ajuda()
